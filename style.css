@@ -1,0 +1,96 @@
+ .pic{animation:pic 2s linear infinite;transform: rotate(360deg);position: relative;right: 80px;bottom: 10px;} 
+ @keyframes pic{from{transform: rotate(0deg);} 
+ to{transform: rotate(360deg);}} 
+
+  .ima{position: relative;right: 7px;top: 4px;padding: 5px; color: #224093; color: #fdb915;}
+  
+  #grad1{height: 300px;background-color: red;width: 1250px; margin-left: 10px;
+    background-image: linear-gradient(to right, #fdb915, #224093, #224093 );
+}
+.boy{border: 2px solid none;height: 500px; width: 100%;background-color: black;background-image: url(picture/Venue-1-38edfbf0.png);background-size: cover;}
+*{margin: 0PX;padding: 0px; box-sizing: border-box;}
+.speak{display: flex; justify-content: space-between; color: #224093;padding: 20px;margin-top: 70px;}
+.grid{display: grid;border: 2px solid none; height:;grid-template-columns: 23% 23% 23% 23%;margin-left: 50px;row-gap: 15px;column-gap: 15px;}
+.grid-items{border: 2px solid none;}
+.gri{display: grid;border: 2px solid none;grid-template-columns: 30% 30% 30%;margin-left: 50px;row-gap: 15px;column-gap: 15px; height: ;}
+.pack{border: 2px solid none;}
+.tick{display: flex; margin-top: 70px; margin-bottom: 100px;justify-content: space-between;padding-left: 20px; padding-right: 20px;}
+.big :hover {background-color:#00a877ff;color: aliceblue;}
+.bod{background-color:#ffcd55;color: #224093;}
+.ticker{display: flex;justify-content: space-between;padding-left: 20px;padding-right: 20px;}
+.bigger :hover{background-color: #224093;color: aliceblue;}
+.big{color: black;background-color: #ffffff;}
+.bigger{background-color: #ffffff;color: black;}
+.mtn{animation: mtn 5s linear infinite;transform: translate(200);display: flex;flex-wrap: nowrap;}
+@keyframes mtn{from {transform: translate(0px);}
+to{transform: translate(1000px);}}
+#grad2{height: 350px;background-color: red;width: 1250px; margin-left: 10px;
+  background-image: linear-gradient(to left, #b65360, #224093, #224093,#224093);
+}
+.last{display: flex; background-color: #224093; height: 70px; color: #ffffff; justify-content: space-between;}
+.check{float: right; margin-left: 1250px; display: none;}
+#check{float: left;display: none;}
+.suit{color: #224093;text-align: center;font-size: 30px;font-weight: bold;margin-top: 20px;}
+.photo{margin-left: 80px;max-width: 100%;}
+.n{margin-right: 50px;}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .me-2{max-width: 100% ;}
+  .lazy{margin-left: 100px;position: relative;bottom: 30px;}
+  .speakh{background-color: aqua; text-align: center;display:inline-block; left: -100px;transition: all 5s;display: none;}
+  .check{ margin-left: 300px;color: black;display: block;position: relative;top: 20px;font-size: 30px;}
+  .pic{position: relative;right: 300px;}
+  #grad1{height: 490px;background-color: red;width: 1250px; margin-left: 10px;
+    background-image: linear-gradient(to right, #fdb915, #224093, #224093 );max-width: 100%;max-height: 100%;font-size: small;}
+    .dash{display: none;}
+    .c{width: 200px;display: none;}
+    .of{font-size: 20px;margin-top: 60px;position: relative;top: 40px;}
+    .o{font-size: 20px; margin-top: 60px;}
+    .speak{display: inline-flex; justify-content: space-between;}
+    .all{margin-left: 60px;font-size: small;margin-top: 10px;}
+    .ker{font-size: medium;font-weight: none;margin-right: 20px;}
+    .gri{display: block;border: 2px solid none;grid-template-columns: 90% 90% 90%;margin-left: 50px;row-gap: 15px;column-gap: 15px; height: ;}
+
+    .grid{display: grid;border: 2px solid none; height:;grid-template-columns: 45%  45% ;margin-left: 50px;row-gap: 15px;column-gap: 15px;}
+.suit{color: #224093;text-align: center;font-size: 15px;font-weight: bold;margin-top: 20px;}
+
+.mtn{animation: mtn 5s linear infinite;transform: translate(0);display: flex;}
+@keyframes mtn{from {transform: translate(600px);}
+to{transform: translate(0px);}}
+.bigger :hover{background-color: #ffffff;color: black;}
+
+#grad2{height: 470px;background-color: red;width: 1250px; margin-left: 10px;
+  background-image: linear-gradient(to left, #b65360, #224093, #224093,#224093);max-width: 100%;
+}
+
+.photo{margin-left: 10px;max-width: 50%;}
+.last{display: inline-block; background-color: #224093; height: 150px; color: #ffffff;;}
+.n{margin-right: 10px;padding-left: 10px;}
+
+
+
+
+
+
+
+  }
+
+
+
+    
+  
+
+  
+
+
